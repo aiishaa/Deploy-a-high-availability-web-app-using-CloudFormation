@@ -32,7 +32,7 @@ $  aws cloudformation create-stack --stack-name servers --template-body file://u
 #### That will creat the following resources:
 * IAM Role for S3 and its policy
 * Load balancer
-* Targer group
+* Target groups
 * Security groups
 * Auto scaling group
 * Launch configration
@@ -44,8 +44,3 @@ $  aws cloudformation create-stack --stack-name servers --template-body file://u
 $ aws cloudformation delete-stack --stack-name network
 $ aws cloudformation delete-stack --stack-name servers
 ```
-
-## To view the website 
-Please click the link below
-
-[Udagram](http://serve-webse-1trc2gm01d7m4-1482192828.us-east-1.elb.amazonaws.com/) `` Or`` http://serve-webse-1trc2gm01d7m4-1482192828.us-east-1.elb.amazonaws.com/
