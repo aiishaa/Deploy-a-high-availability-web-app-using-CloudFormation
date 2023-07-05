@@ -41,8 +41,4 @@ My task was to create a high availability infrastructure and deploy it throug AW
 
 - Log information for UserData scripts is located in this file: cloud-init-output.log under the folder: /var/log.
 
-- You should be able to destroy the entire infrastructure and build it back up without any manual steps required, other than running the CloudFormation script.
-
 - The provided UserData script should help you install all the required dependencies. Bear in mind that this process takes several minutes to complete. Also, the application takes a few seconds to load. This information is crucial for the settings of your load balancer health check.
-
-- Last thing: Remember to delete your CloudFormation stack when you're done to avoid recurring charges!
